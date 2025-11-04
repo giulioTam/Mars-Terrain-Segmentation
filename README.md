@@ -56,5 +56,17 @@ A.Y. 2024–2025
 
 ---
 
+## 📁 Repository Structure
+
+mars-terrain-segmentation/
+├── models/
+│   ├── homework2_01_baseline.ipynb          # Basic U-Net (depth 2)
+│   ├── homework2_02_dualnet.ipynb           # Dual U-Net (depth 2 + depth 4), static aug, focal loss
+│   ├── homework2_03_single_dynamic_aug.ipynb # Single U-Net (depth 3), dynamic aug, focal loss
+│   └── homework2_04_final.ipynb             # Final Model: depth 4, dynamic aug, oversampling, focal Tversky loss
+│
+├── Report_Homework2_GLM2.pdf                # Final report submitted with the last model
+└── README.md                                # Project documentation
+
 
 ## 📁 Repository Structure
