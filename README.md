@@ -18,11 +18,10 @@ The project follows the structure of a Kaggle-style competition organized by the
 - **Input:** Grayscale images (64×128 pixels)  
 - **Output:** Predicted segmentation masks with pixel-level class labels  
 - **Classes:** 5 terrain types (background excluded from evaluation)  
-- **Metric:** Mean Intersection over Union (mIoU)  \[
-\text{mIoU} = \frac{1}{|C|} \sum_{c \in C} \frac{TP_c}{TP_c + FP_c + FN_c}
-\]
-where \( C \) is the set of valid classes (excluding the background).
-
+- **Metric:** Mean Intersection over Union (mIoU)
+- 
+The dataset file (`mars_data.npz`) is too large for GitHub.  
+You can download it here: https://www.kaggle.com/competitions/an-2-dl-2024-2025-homework-2/data
 Leaderboard and final results were computed on hidden test subsets.
 
 
@@ -48,20 +47,10 @@ The notebook includes:
 
 ---
 
-## 🧪 Evaluation
-Performance was assessed using **Mean Intersection over Union (mIoU)**:
-\[
-\text{mIoU} = \frac{1}{|C|} \sum_{c \in C} \frac{TP_c}{TP_c + FP_c + FN_c}
-\]
-where \( C \) is the set of valid classes (excluding the background).
-
-Leaderboard and final results were computed on hidden test subsets.
-
----
-
 
 ## 👨‍💻 Authors
-**Team [Your Team Name]**  
+**Team GLM2:** Giulio Tamburini, Luca Bonini, Mirko Manset, Mario Russo
+
 Artificial Neural Networks and Deep Learning — Politecnico di Milano  
 A.Y. 2024–2025
 
