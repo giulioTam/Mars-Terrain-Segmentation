@@ -69,4 +69,3 @@ mars-terrain-segmentation/
 └── README.md                                # Project documentation
 
 
-## 📁 Repository Structure
